@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">main</string>
+    <string name="cancel">Відміна</string>
+    <string name="ok">OK</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="exit">Вихід</string>
+    <string name="search_text">Пошук...</string>
+    <string name="selector_tag">selector</string>
+    <string name="title_delete">Попередження</string>
+    <string name="title_info">Інфо</string>
+    <string name="title_error">Помилка</string>
+    <string name="message_check_connection">Будь ласка перевірте ваше з\'єднання з інтернетом</string>
+    <string name="message_no_connection">Відсутнє з\'єднання з інтернетом.\nПеревірте ваше з\'єднання та перезапустіть аплікацію</string>
+    <string name="message_loading">Завантаження...</string>
+    <string name="message_loading_error">Помилка</string>
+    <string name="message_refresh">Помилка завантаження даних. Натисніть оновити щоб спробувати ще раз</string>
+    <string name="message_not_include">Всі</string>
+    <!-- GearBox Types-->
+    <string name="ручная_механика">Механічна</string>
+    <string name="автомат">Автомат</string>
+    <string name="типтроник">Типтронік</string>
+    <string name="адаптивная">Адаптивна</string>
+    <string name="вариатор">Варіатор</string>
+     <!-- Fuel Types-->
+    <string name="бензин">Бензин</string>
+    <string name="дизель">Дизель</string>
+    <string name="газ">Газ</string>
+    <string name="газ_бензин">Газ+Бензин</string>
+    <string name="гибрид">Гібрид</string>
+    <string name="электро">Електро</string>
+    <string name="другое">Інше</string>
+    <string name="газ_метан">Газ-метан</string>
+    <string name="газ_пропан_бутан">Газ-пропан-бутан</string>
+     <!-- Buttons-->
+     <string name="calculate">Розрахувати</string>
+     <string name="model">Модель:</string>
+     <string name="gearbox">КПП:</string>
+     <string name="fuel_type">Вид пального:</string>
+     <string name="mark">Марка:</string>
+     <string name="year">Рік випуску:</string>
+     <string name="engine_volume">Об\'єм двигуна:</string>
+     <string name="customs_cleared">Розмитнена:</string>
+     <string name="select">Виберіть</string>
+     <string name="select_model">Виберіть модель</string>
+     <string name="select_mark">Виберіть марку</string>
+     <string name="select_year">Виберіть рік</string>
+     <string name="gear_box_type">Тип КПП</string>
+     <string name="double_mode">Вибрати відрізком:</string>
+     <string name="result_title">Результати</string>
+     <string name="result_not_found">Не знайдено машин з такою комбінацією параметрів, перевірте їх та спробуйте ще раз</string>
+     <string name="result_error">Не вдалось отримати відповідь сервера, перевірте ваше з\'єднання або спробуйте пізніше</string>
+     <string name="result_template">Модель: {0} \nРік випуску: {1} \nОб\'єм двигуна: {2} \nКПП: {3} \nВид пального: {4} \nРозмитнена: {5} \nЗнайдено машин: {6} \n \nСередня ціна в Україні становить: {7} $</string>
+</resources>

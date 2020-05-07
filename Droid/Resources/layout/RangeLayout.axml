@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="18dip"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:id="@+id/pickerTitle"
+            android:text="@string/select_mark" />
+        <ImageView
+            android:id="@+id/btnCloseDialog"
+            android:layout_weight="0"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/close"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <TextView
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/double_mode" />
+            <Switch
+                android:id="@+id/doubleModeSwitch"
+                android:paddingRight="15dp"
+                android:theme="@style/switchStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+        </TableRow>
+        <TableRow>
+            <xamarin.rangeslider.RangeSliderControl
+                android:id="@+id/rangeSlider"
+                android:layout_span="2"
+                local:showRangeLabels="false"
+                local:internalPadding="10dp"
+                local:barHeight="4dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnSelectYear"
+                android:text="@string/ok"
+                android:layout_span="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="@android:color/@color/white"
+                android:background="@drawable/single_border"
+                style="?android:attr/borderlessButtonStyle" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

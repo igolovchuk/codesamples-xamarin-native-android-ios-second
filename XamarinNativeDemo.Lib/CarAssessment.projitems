@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{7A438EDA-413C-4226-AB71-376198485700}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XamarinNativeDemo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\NameValueItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\CarDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Vehicle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICarDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\JsonProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IJsonProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IFileSystemProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\FileSystemProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\CacheDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICacheDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\AverageValueItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\UnityContainerProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\SingletonProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\OperationSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\StatisticDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IStatisticDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\Projects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\PandoraModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\SecurityProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Providers\NetworkProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\INetworkProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IDeviceInfoProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Record.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\TexFormat.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Providers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Interfaces\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Enums\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+  </ItemGroup>
+</Project>

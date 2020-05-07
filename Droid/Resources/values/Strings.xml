@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">main</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="search_text">Search...</string>
+    <string name="selector_tag">selector</string>
+    <string name="title_delete">Warning</string>
+    <string name="title_info">Info</string>
+    <string name="title_error">Error</string>
+    <string name="message_check_connection">Please check your connection to the internet</string>
+    <string name="message_no_connection">No internet connection detected.\nPlease check your connection and restart application</string>
+    <string name="message_loading">Loading...</string>
+    <string name="message_loading_error">Loading error.</string>
+    <string name="message_refresh">Couldn\'t load data. Click refresh to try again</string>
+    <string name="message_not_include">All</string>
+    <!-- GearBox Types-->
+    <string name="ручная_механика">Mechanik</string>
+    <string name="автомат">Automat</string>
+    <string name="типтроник">Tiptronik</string>
+    <string name="адаптивная">Adaptive</string>
+    <string name="вариатор">Variator</string>
+     <!-- Fuel Types-->
+    <string name="бензин">Gasoline</string>
+    <string name="дизель">Diesel</string>
+    <string name="газ">Gas</string>
+    <string name="газ_бензин">Gas+Gasoline</string>
+    <string name="гибрид">Hybrid</string>
+    <string name="электро">Electro</string>
+    <string name="другое">Other</string>
+    <string name="газ_метан">Gas-methane</string>
+    <string name="газ_пропан_бутан">Gas-propane-butane</string>
+     <!-- Buttons-->
+     <string name="calculate">Calculate</string>
+     <string name="model">Model:</string>
+     <string name="gearbox">Gearbox:</string>
+     <string name="fuel_type">Fuel type:</string>
+     <string name="mark">Mark:</string>
+     <string name="year">Year:</string>
+     <string name="engine_volume">Engine volume:</string>
+     <string name="customs_cleared">Customs cleared:</string>
+     <string name="select">Select</string>
+     <string name="select_model">Select model</string>
+     <string name="select_mark">Select mark</string>
+     <string name="select_year">Select year</string>
+     <string name="gear_box_type">Gear box type</string>
+     <string name="double_mode">Mode from-to:</string>
+     <string name="result_title">Results</string>
+     <string name="result_not_found">Could\'t find cars with such combination of parameters, please verify it and try again</string>
+     <string name="result_error">Couldn\'t get response from server, please check your internet connection or try again later</string>
+     <string name="result_template">Model: {0} \nYear: {1} \nEngine volume: {2} \nGear box: {3} \nFuel type: {4} \nCustoms cleared: {5} \nFound cars: {6} \n \nAverage price in Ukraine is: {7} $</string>
+</resources>
